@@ -16,5 +16,5 @@
 		$csv.="\n";
 	}
 	file_put_contents('response.csv',$csv);
-	echo 'Open response.csv\n';
+	echo "Open response.csv\n";
 ?>
